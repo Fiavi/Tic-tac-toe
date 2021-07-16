@@ -1,0 +1,56 @@
+.position {
+    position: relative;
+}
+
+.board {
+    width: 450px;
+    height: 450px;
+    background: #000;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.info {
+    margin: 0;
+    padding: 0;
+    margin-left: 25px;
+    color: white;
+    font-size: 36px;
+    text-align: center;
+}
+
+.players {
+    width: 200px;
+    display: flex;
+    font-size: 38px;
+    flex-direction: column;
+    align-items: flex-start;
+    color: white;
+    position: absolute;
+    right: -230px;
+    top: -10px;
+}
+
+.players p {
+    padding: 0;
+    margin: 0;
+    margin-bottom: 20px;
+}
+
+.players button {
+    font-size: 18px;
+    cursor: pointer;
+    color: white;
+    outline: none;
+    background: #545f7d;
+    border: 1px solid white;
+}
+
+.players button:hover {
+    background: #ffffff;
+    color: #222222;
+    border: 1px solid black;
+    transition: 0.3s all ease-in;
+}
